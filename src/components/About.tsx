@@ -56,7 +56,7 @@ export default function About() {
           >
             <div className="aspect-square rounded-3xl overflow-hidden border border-white/10 relative group">
               <img
-                src="/pak umar.jpeg"
+                src="pak umar.jpeg"
                 alt="Media Workshop"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />

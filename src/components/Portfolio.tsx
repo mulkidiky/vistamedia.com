@@ -19,37 +19,37 @@ export default function Portfolio() {
     {
       title: 'Sowan PKL',
       category: 'Cinematic',
-      img: '/Screenshot 2026-05-07 040606.png',
+      img: 'Screenshot 2026-05-07 040606.png',
       link: 'https://www.instagram.com/reel/DXmQYKfFObU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
     },
     {
       title: 'ASAS',
       category: 'Poster Design',
-      img: '/Screenshot 2026-05-07 040528.png',
+      img: 'Screenshot 2026-05-07 040528.png',
       link: 'https://www.instagram.com/p/DXGAnh5EzBc/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
     },
     {
       title: 'Pembelajaran Kelas Industri',
       category: 'Poster Design',
-      img: '/573835482_17853420315575932_3443563399173574956_n.webp',
+      img: '573835482_17853420315575932_3443563399173574956_n.webp',
       link: 'https://www.instagram.com/p/DRJ3gGQE5J7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
     },
     {
       title: 'Launching Kelas Industri',
       category: 'Cinematic',
-      img: '/Screenshot 2026-05-07 042136.png',
+      img: 'Screenshot 2026-05-07 042136.png',
       link: 'https://www.instagram.com/reel/DPVusrklODW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
     },
     {
       title: 'Juara 1 Video Kreatif dalam Lomba Merah Putih',
       category: 'Poster Design',
-      img: '/540255289_17896763184280549_5513792194827279090_n.webp',
+      img: '540255289_17896763184280549_5513792194827279090_n.webp',
       link: 'https://www.instagram.com/p/DOA-xpcE7Ki/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
     },
     {
       title: 'Konten Bukan Sekedar Tontonan',
       category: 'Video Edukasi',
-      img: '/Screenshot 2026-05-07 042302.png',
+      img: 'Screenshot 2026-05-07 042302.png',
       link: 'https://www.instagram.com/reel/DT8MrpHE8f4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
     },
   ];

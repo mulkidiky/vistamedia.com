@@ -24,13 +24,13 @@ export default function Navbar() {
         >
           <div className="w-16 h-16 rounded-xl flex items-center justify-center transition-transform group-hover:scale-105 overflow-hidden relative">
             <img
-              src="/VM.png"
+              src="VM.png"
               alt="Vista Media Logo"
               className="w-full h-full object-contain"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
                 target.onerror = null;
-                target.src = "/VM.png";
+                target.src = "VM.png";
               }}
               referrerPolicy="no-referrer"
             />
