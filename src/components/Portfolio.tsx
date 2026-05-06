@@ -77,9 +77,12 @@ export default function Portfolio() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {works.map((work, i) => (
-            <motion.div
+            <motion.a
+              href={work.link || "https://www.instagram.com/vistamedia.ibrahimy/"}
+              target="_blank"
+              rel="noopener noreferrer"
               key={work.title}
-              className="group relative aspect-[4/5] rounded-[32px] overflow-hidden glass-card border border-white/5 block"
+              className="group relative aspect-[4/5] rounded-[32px] overflow-hidden glass-card border border-white/5 block cursor-pointer"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -90,31 +93,18 @@ export default function Portfolio() {
                 alt={work.title}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-0 group-hover:opacity-90 transition-opacity duration-300" />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent opacity-80 group-hover:opacity-100 transition-opacity duration-300" />
 
-              <div className="absolute inset-0 p-8 flex flex-col justify-end transform translate-y-8 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                <span className="text-[10px] uppercase font-bold text-indigo-400 tracking-widest mb-2">{work.category}</span>
-                <h4 className="text-2xl font-bold mb-6">{work.title}</h4>
-                <div className="flex gap-4">
-                  <a
-                    href={work.link || "https://www.youtube.com/@vistamediaibrahimy"}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-10 h-10 rounded-full bg-indigo-600 flex items-center justify-center hover:scale-110 transition-transform"
-                  >
+              <div className="absolute inset-0 p-6 md:p-8 flex flex-col justify-end">
+                <div className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                  <span className="text-[10px] uppercase font-bold text-indigo-400 tracking-widest mb-2 block">{work.category}</span>
+                  <h4 className="text-xl md:text-2xl font-bold mb-4 line-clamp-2">{work.title}</h4>
+                  <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-indigo-600 transition-colors">
                     <ExternalLink size={18} />
-                  </a>
-                  <a
-                    href="https://www.instagram.com/vistamedia.ibrahimy/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all font-bold"
-                  >
-                    <Instagram size={18} />
-                  </a>
+                  </div>
                 </div>
               </div>
-            </motion.div>
+            </motion.a>
           ))}
         </div>
 
