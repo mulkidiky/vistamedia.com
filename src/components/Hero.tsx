@@ -83,7 +83,7 @@ export default function Hero() {
           </div>
 
           {/* Right Column: Visual Preview */}
-          <div className="lg:col-span-5 hidden lg:flex flex-col gap-6">
+          <div className="lg:col-span-5 flex flex-col gap-6 w-full max-w-lg mx-auto lg:max-w-none">
             <motion.a
               href="https://youtu.be/aOXqm4twyp4?si=iLQa4l-yXnl7CGDH"
               target="_blank"
