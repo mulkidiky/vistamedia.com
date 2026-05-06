@@ -130,7 +130,7 @@ export default function Portfolio() {
               Subscribe YouTube
             </a>
             <a
-              href="https://www.instagram.com/vistamedia.ibrahimy/"
+              href="https://www.instagram.com/vistamediaibrahimy/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 px-8 py-4 bg-white/5 border border-white/10 text-white rounded-full font-bold hover:bg-white/10 transition-all"
@@ -139,7 +139,7 @@ export default function Portfolio() {
               Follow Instagram
             </a>
             <a
-              href="https://www.tiktok.com/@vistamedia.ibrahimy"
+              href="https://www.tiktok.com/@vistamediaibrahimy"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 px-8 py-4 bg-white/5 border border-white/10 text-white rounded-full font-bold hover:bg-white/10 transition-all"

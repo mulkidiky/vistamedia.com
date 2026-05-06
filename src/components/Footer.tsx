@@ -41,9 +41,9 @@ export default function Footer() {
             </p>
             <div className="flex gap-4">
               {[
-                { Icon: Instagram, href: 'https://www.instagram.com/vistamedia.ibrahimy/' },
+                { Icon: Instagram, href: 'https://www.instagram.com/vistamediaibrahimy?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==/' },
                 { Icon: Youtube, href: 'https://www.youtube.com/@vistamediaibrahimy' },
-                { Icon: TikTokIcon, href: 'https://www.tiktok.com/@vistamedia.ibrahimy' },
+                { Icon: TikTokIcon, href: 'https://www.tiktok.com/@vistamediaibrahimy' },
                 { Icon: Mail, href: 'mailto:vistamediaibrahimy@gmail.com' }
               ].map(({ Icon, href }, i) => (
                 <motion.a
